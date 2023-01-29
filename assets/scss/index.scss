@@ -1,0 +1,73 @@
+@use 'sass:math';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
+
+$custom-breakpoints: (
+	sm: 512px,
+	lg: 1152px,
+);
+
+$custom-colors: (
+	'light': #cfd6ec,
+	'dark': #000000,
+	'primary': #2e3b6e,
+	'secondary': #d3d3d3,
+	'info': #969696,
+	'starred': #fac150,
+	'promo': #7f65b7,
+	'new': #6776b7,
+	'wish': #ee4949,
+);
+
+$card-width: 252px;
+
+$card-image-size: 190px;
+$card-gap: 40px;
+$card-padding: 30px;
+$slider-padding-block: 32px;
+$slider-padding-inline: 98px;
+$topbar-padding-inline: 18px;
+$topbar-padding-bottom: 33px;
+
+$card-image-size-small: 110px;
+$card-gap-small: 20px;
+$card-padding-small: 20px;
+$slider-padding-inline-small: 20px;
+
+$grid-breakpoints: map-merge($grid-breakpoints, $custom-breakpoints);
+$theme-colors: map-merge($theme-colors, $custom-colors);
+@import 'bootstrap/scss/bootstrap';
+
+@font-face {
+	font-family: 'Jost';
+	src: url('~/assets/fonts/Jost/static/Jost-Regular.ttf')
+		format('truetype');
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Jost';
+	src: url('~/assets/fonts/Jost/static/Jost-Medium.ttf')
+		format('truetype');
+	font-style: normal;
+	font-weight: 500;
+}
+
+body {
+	font-family: 'Jost', Arial, Helvetica, sans-serif;
+}
+
+.icon {
+	width: 100%;
+	height: 100%;
+	vertical-align: unset;
+}
+
+button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: none;
+}

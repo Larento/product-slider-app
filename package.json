@@ -1,29 +1,36 @@
 {
-    "name": "product-slider-app",
-    "scripts": {
-        "dev": "nuxt",
-        "build": "nuxt build",
-        "generate": "nuxt generate",
-        "start": "nuxt start"
-    },
-    "dependencies": {
-        "@nuxt/typescript-runtime": "^2.1.0",
-        "@nuxtjs/axios": "^5.13.6",
-        "bootstrap": "^5.2.3",
-        "core-js": "^3.27.2",
-        "nuxt": "2",
-        "vue": "2",
-        "vue-slick-carousel": "^1.0.6"
-    },
-    "devDependencies": {
-        "@nuxt/types": "^2.15.8",
-        "@nuxt/typescript-build": "^2.1.0",
-        "autoprefixer": "^10.4.13",
-        "css-loader": "^6.7.3",
-        "fibers": "^5.0.3",
-        "postcss-loader": "^7.0.2",
-        "sass": "^1.57.1",
-        "sass-loader": "^13.2.0",
-        "style-loader": "^3.3.1"
-    }
+	"name": "product-slider-app",
+	"scripts": {
+		"dev": "nuxt",
+		"build": "nuxt build",
+		"generate": "nuxt generate",
+		"start": "nuxt start"
+	},
+	"dependencies": {
+		"@nuxt/typescript-runtime": "^2.1.0",
+		"@nuxtjs/axios": "^5.13.6",
+		"@nuxtjs/composition-api": "^0.33.1",
+		"bootstrap": "^5.2.3",
+		"bootstrap-icons": "^1.10.3",
+		"core-js": "^3.27.2",
+		"force": "^0.0.3",
+		"nuxt": "2",
+		"vue": "2",
+		"vue-slick-carousel": "^1.0.6",
+		"vuex": "^3.6.2"
+	},
+	"devDependencies": {
+		"@nuxt/types": "^2.15.8",
+		"@nuxt/typescript-build": "^2.1.0",
+		"@nuxtjs/style-resources": "^1.2.1",
+		"@nuxtjs/svg": "^0.4.0",
+		"autoprefixer": "^10.4.13",
+		"css-loader": "^5.2.7",
+		"fibers": "^5.0.3",
+		"postcss-loader": "^4.3.0",
+		"sass": "^1.57.1",
+		"sass-loader": "^10.4.1",
+		"style-loader": "^2.0.0",
+		"webpack": "^4.46.0"
+	}
 }
